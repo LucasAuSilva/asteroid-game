@@ -1,6 +1,10 @@
 import pygame
 
 class CircleShape(pygame.sprite.Sprite):
+    position: pygame.Vector2
+    velocity: pygame.Vector2
+    radius: float
+
     def __init__(self, x, y, radius):
         if hasattr(self, "containers"):
             super().__init__(self.containers)
