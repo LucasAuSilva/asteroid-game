@@ -26,6 +26,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
         updatables.update(dt)
+
         for asteroid in asteroids:
             if asteroid.check_collision(player):
                 print("Game Over!")
