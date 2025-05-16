@@ -8,6 +8,6 @@ An replica of the asteroid game, build with python to consolidate knowledge on t
 - [ ] Add explosition effect for asteroids
 - [ ] Add an background image
 - [ ] Create more weapons types
-[ ] Add shield and speed power-ups
-[ ] Make ship have triangular hit box
+- [ ] Add shield and speed power-ups
+- [ ] Make ship have triangular hit box
 
